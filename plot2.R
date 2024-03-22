@@ -56,7 +56,7 @@ png("plot2.png", width = 480, height = 480)
       # Plotting the plot2, which shows the Global active power evolution in time
       plot(sub_data$DateAndTime,
            sub_data$Global_active_power,
-           main = "Evolution of Global Active Power \n over the span of two days",  
+           main = "Evolution of Global Active Power \n over the span of two day",  
             type="l",                                                   
             xlab="",                                                    
             ylab="Global Active Power (kilowatts)",                     
