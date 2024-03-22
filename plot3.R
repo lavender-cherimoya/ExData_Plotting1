@@ -58,7 +58,7 @@ png("plot3.png", width = 480, height = 480)
       # Begin by plotting the first curve, i.e. Sub_metering_1
       plot(sub_data$DateAndTime,
             sub_data$Sub_metering_1,
-            main = "Evolution of Energy sub metering \n over two days",   
+            main = "Evolution of Energy sub metering \n over the span of two days",   
             type="l",                                                     
             xlab="",                                                      
             ylab="Energy sub metering",                                   
